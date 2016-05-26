@@ -1,7 +1,7 @@
 # bq-usage-visualizer
 A solution for visualizing the query costs and usage over day, generated in BigQuery, for a Google Compute Platform project.
 
-Using the following guide you will end up with a spreadsheet showing the BigQuery query costs over time and per user in one project in near real-time.
+Using the following guide you will end up with a spreadsheet showing the BigQuery query costs over time and per user in near real-time.
 
 This is acheived by plumbing together already existing Google technologies, i.e. you will not have to deploy scary code anywhere.
 
