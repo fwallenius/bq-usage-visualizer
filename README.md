@@ -21,7 +21,7 @@ In the name of speed and efficiency most of the plumbing is done using the comma
 
 * Create a new project or select an existing one. 
 * Grab the project’s ID and number from the Developer Console:
-  * ![Grab project ID and number](https://raw.githubusercontent.com/fwallenius/bq-usage-visualizer/master/images/project_id.png)
+![Grab project ID and number](https://raw.githubusercontent.com/fwallenius/bq-usage-visualizer/master/images/project_id.png)
 
 * Fire up a bash session and store them in two variables:
 ```bash
