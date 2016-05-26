@@ -3,7 +3,7 @@ A solution for visualizing the query costs and usage over day, generated in BigQ
 
 Using the following guide you will end up with a spreadsheet showing the BigQuery query costs over time and per user in near real-time.
 
-This is acheived by plumbing together already existing Google technologies, i.e. you will not have to deploy scary code anywhere.
+This is acheived by plumbing together already existing Google technologies, i.e. you will (almost) not have to deploy code anywhere.
 
 ## High-level description
 
@@ -21,7 +21,7 @@ In the name of speed and efficiency most of the plumbing is done using the comma
 
 * Create a new project or select an existing one. 
 * Grab the project’s ID and number from the Developer Console:
-  * TODO: Picture here
+  * ![Grab project ID and number](https://raw.githubusercontent.com/fwallenius/bq-usage-visualizer/master/images/project_id.png)
 
 * Fire up a bash session and store them in two variables:
 ```bash
@@ -33,7 +33,7 @@ $ export PROJECT_NUMBER=600424227998
 $ gcloud config set project $PROJECT_ID
 ```
 
-### Setup the logging and BigQuery
+### Setup the logging and BigQuery tables
 
 * First we need a dataset in BigQuery where the audit logs will be stored. Let’s call it “bqusage”. Create it by running:
 ```bash
