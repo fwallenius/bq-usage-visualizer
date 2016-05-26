@@ -20,7 +20,7 @@ In the name of speed and efficiency most of the plumbing is done using the comma
 ### Pre-conditions
 
 * Create a new project or select an existing one. 
-* Grab the project’s ID and number from the Developer Console:
+* Grab the Project ID and Project number from the Developer Console:
 ![Grab project ID and number](https://raw.githubusercontent.com/fwallenius/bq-usage-visualizer/master/images/project_id.png)
 
 * Fire up a bash session and store them in two variables:
@@ -44,9 +44,9 @@ $ bq mk bqusage
 
   * Open https://bigquery.cloud.google.com/
   * Find your new dataset “bqusage” in the list on the left and select “Share dataset”:
-  * TODO: Image here
+![Select Share dataset](https://raw.githubusercontent.com/fwallenius/bq-usage-visualizer/master/images/share_dataset.png)
   * In the pop-up, change left dropdown to “Group by e-mail”, enter cloud-logs@google.com as email and change the right dropdown to Edit access.
-  * TODO: Image here
+![Add the Logs users](https://raw.githubusercontent.com/fwallenius/bq-usage-visualizer/master/images/add_logs_user.png)
   * Click Add and then Save changes.
 
 * Next we’ll activate the usage logging and make sure it’s stored in the new dataset:
