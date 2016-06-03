@@ -115,7 +115,23 @@ ORDER BY
   ts DESC' bqusage.usage_simplified
 ```
 
-* Now we have all the data needed. Time to create the dashboard.
+### Visualizing user Apps Spreadsheet
+
+Now we have all the data needed. Time to create the dashboard. Google Apps Spreadsheet has a BigQuery connector and can transform the data into graphs.
+
+* Start by opening this template https://docs.google.com/spreadsheets/d/1pEDj-XFhpb6CkYU-bws0_nFOStWEjwasIcjvIOwIT2Q/edit?usp=sharing
+
+* Make a copy of the temple owned by yourself.
+
+* Open the "data" sheet and change the project ID cell to your project.
+
+* Access the script editor by selecting Tools / Script Editor..
+
+* Associate the spreadsheet with your GCP project by selecting Resources / Develops Console Project.. In the pop-up enter your project number and click "Set Project"
+
+* Run the script by clicking the play button. On first run you will have to approve the spreadsheet's access to your BigQuery dataset.
+
+
 
 
 
