@@ -5,6 +5,11 @@ Using the following guide you will end up with a spreadsheet showing the BigQuer
 
 This is acheived by plumbing together already existing Google technologies, i.e. you will (almost) not have to deploy code anywhere.
 
+### Example real-time graphs
+![Total usage last 30 days](https://raw.githubusercontent.com/fwallenius/bq-usage-visualizer/master/images/graph_month.png)
+![Top users last 30 days](https://raw.githubusercontent.com/fwallenius/bq-usage-visualizer/master/images/graph_month2.png)
+![Top users last 7 days](https://raw.githubusercontent.com/fwallenius/bq-usage-visualizer/master/images/graph_lastweek.png)
+
 ## High-level description
 
 Google Cloud Platform (GCP) has audit logging available for most of the products. In this solution we setup streaming of the BigQuery (BQ) audit logs into, well, BigQuery. Every query run in BQ generates an audit log entry that mong other things states who ran the query and how many bytes that was processed. 
