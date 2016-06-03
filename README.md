@@ -115,7 +115,7 @@ ORDER BY
   ts DESC' bqusage.usage_simplified
 ```
 
-### Visualizing user Apps Spreadsheet
+### Visualizing the data using Apps Spreadsheet
 
 Now we have all the data needed. Time to create the dashboard. Google Apps Spreadsheet has a BigQuery connector and can transform the data into graphs.
 
