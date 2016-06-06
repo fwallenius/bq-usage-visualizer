@@ -121,7 +121,7 @@ Now we have all the data needed. Time to create the dashboard. Google Apps Sprea
 
 * Start by opening this template https://docs.google.com/spreadsheets/d/1pEDj-XFhpb6CkYU-bws0_nFOStWEjwasIcjvIOwIT2Q/edit?usp=sharing
 
-* Make a copy of the temple owned by yourself.
+* Make a copy of the tempate owned by yourself.
 
 * Open the "data" sheet and change the project ID cell to your project.
 
@@ -130,19 +130,3 @@ Now we have all the data needed. Time to create the dashboard. Google Apps Sprea
 * Associate the spreadsheet with your GCP project by selecting Resources / Develops Console Project.. In the pop-up enter your project number and click "Set Project"
 
 * Run the script by clicking the play button. On first run you will have to approve the spreadsheet's access to your BigQuery dataset.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
